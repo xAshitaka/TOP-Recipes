@@ -1,5 +1,62 @@
 
-.ok {
-    width: 400px;
-    height: auto;
+
+
+#p {
+    color: red;
+}
+
+#i {
+    color: yellow;
+}
+
+#z1 {
+    color: green;
+}
+
+#z2 {
+    color: rgb(0, 255, 76);
+}
+
+#a {
+    color: rgb(255, 0, 221);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color:blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(128, 64, 19, 0.432);
+    padding: 0px;
+    text-align: center;
+    flex: 1;
+    
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.container h2 {
+    flex: 1;
+   /* flex-direction: row;*/
 }
